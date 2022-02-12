@@ -30,7 +30,7 @@ export const SidebarWrapper = styled.div`
 
 export const SidebarMenu = styled.div`
   margin-bottom: 1rem;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 `;
 
 export const SidebarTitle = styled.h3`
