@@ -4,6 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import NavBar from '../../components/nav-bar/NavBar';
 import SideBar from '../../components/side-bar/SideBar';
 import Home from '../home/Home';
+import NewUser from '../new-user/NewUser';
 import User from '../user/User';
 import UserList from '../userlist/UserList';
 
@@ -21,6 +22,9 @@ const Dashboard = () => {
         </Routes>
         <Routes>
           <Route path='/users/:userId' element={<User />} />
+        </Routes>
+        <Routes>
+          <Route path='/newUser' element={<NewUser />} />
         </Routes>
       </div>
     </div>
