@@ -52,9 +52,6 @@ export const newMemberRows = [
   },
 ];
 
-
-
-
 export const lastTransctionRows = [
   {
     id: 1,
@@ -92,6 +89,91 @@ export const lastTransctionRows = [
     avatar: 'https://randomuser.me/api/portraits/men/28.jpg',
     date: '5 Jun 2021',
     type: 'Pending',
+    transaction: '$720.00',
+  },
+];
+
+
+
+export const userRows = [
+  {
+    id: 1,
+    username: 'Mary Jane',
+    avatar: 'https://randomuser.me/api/portraits/women/1.jpg',
+    email: 'mary@gmail.com',
+    status: 'active',
+    transaction: '$180.00',
+  },
+  {
+    id: 2,
+    username: 'Lovely Singh',
+    avatar: 'https://randomuser.me/api/portraits/women/10.jpg',
+    email: 'lovely@gmail.com',
+    status: 'active',
+    transaction: '$220.00',
+  },
+  {
+    id: 3,
+    username: 'Shikha Das',
+    avatar: 'https://randomuser.me/api/portraits/women/15.jpg',
+    email: 'shikha@gmail.com',
+    status: 'active',
+    transaction: '$320.00',
+  },
+  {
+    id: 4,
+    username: 'Reema Jain',
+    avatar: 'https://randomuser.me/api/portraits/women/34.jpg',
+    email: 'reema@gmail.com',
+    status: 'active',
+    transaction: '$110.00',
+  },
+  {
+    id: 5,
+    username: 'Robin Hood',
+    avatar: 'https://randomuser.me/api/portraits/men/1.jpg',
+    email: 'robin@gmail.com',
+    status: 'active',
+    transaction: '$120.00',
+  },
+  {
+    id: 6,
+    username: 'Aamir Jain',
+    avatar: 'https://randomuser.me/api/portraits/men/12.jpg',
+    email: 'aamir@gmail.com',
+    status: 'active',
+    transaction: '$220.00',
+  },
+  {
+    id: 7,
+    username: 'John Traversy',
+    avatar: 'https://randomuser.me/api/portraits/men/18.jpg',
+    email: 'john@gmail.com',
+    status: 'active',
+    transaction: '$420.00',
+  },
+  {
+    id: 8,
+    username: 'Parag Khandar',
+    avatar: 'https://randomuser.me/api/portraits/men/22.jpg',
+    email: 'parag@gmail.com',
+    status: 'active',
+    transaction: '$320.00',
+  },
+  {
+    id: 9,
+    username: 'Saira Hussian',
+    avatar: 'https://randomuser.me/api/portraits/women/77.jpg',
+    email: 'saira@gmail.com',
+    status: 'active',
+    transaction: '$720.00',
+  },
+  {
+    id: 10,
+    username: 'Rohit Malik',
+    avatar: 'https://randomuser.me/api/portraits/men/28.jpg',
+    email: 'rohit@gmail.com',
+    status: 'active',
     transaction: '$720.00',
   },
 ];
