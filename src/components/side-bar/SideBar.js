@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import {
   SidebarContainer,
@@ -29,10 +30,12 @@ const SideBar = () => {
         <SidebarMenu>
           <SidebarTitle>Dashboard</SidebarTitle>
           <SidebarList>
-            <SidebarListItem>
-              <MyLineStyle />
-              Home
-            </SidebarListItem>
+            <Link to='/' style={{ textDecoration: 'none', color: '#555' }}>
+              <SidebarListItem>
+                <MyLineStyle />
+                Home
+              </SidebarListItem>
+            </Link>
             <SidebarListItem>
               <MyTimeline />
               Analytics
@@ -47,10 +50,16 @@ const SideBar = () => {
         <SidebarMenu>
           <SidebarTitle>All Menu</SidebarTitle>
           <SidebarList>
-            <SidebarListItem>
-              <MyPermIdentity />
-              Users
-            </SidebarListItem>
+            <Link
+              to='/users'
+              className='link'
+              style={{ textDecoration: 'none', color: '#555' }}
+            >
+              <SidebarListItem>
+                <MyPermIdentity />
+                Users
+              </SidebarListItem>
+            </Link>
             <SidebarListItem>
               <MyStorefront />
               Products
